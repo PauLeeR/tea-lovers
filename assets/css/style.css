@@ -24,7 +24,19 @@ Código Hexadecimal gris footer: #3B3B3B */
 /*Secciones fondo de color*/
 .color{
 	background-color: #8EC641;
+	text-align: center;
+	color: white;
 }
+
+.color input[type="text"] {
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	width: 25%;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
 /*Newsletter*/
 .newsletter{
 	text-align: center;
@@ -40,6 +52,14 @@ Código Hexadecimal gris footer: #3B3B3B */
 	font-weight: bolder;
 	cursor: pointer;
 }
+.color h1 {
+	text-align: center;
+	color: white;
+	font-size: 28px;
+	line-height: 5rem;
+	text-transform: uppercase;
+}
+
 /*Seccion about*/
 #about{
 	background: url("../img/fondo-about.jpg");
@@ -73,6 +93,12 @@ Código Hexadecimal gris footer: #3B3B3B */
 }
 .tipo-de-te h2{
 	font-size: 1.5rem;
+}
+.form-control{
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	border: 5px solid white;
 }
 /*Disfruta*/
 #disfruta{
