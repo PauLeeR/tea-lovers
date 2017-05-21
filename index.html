@@ -39,7 +39,7 @@
 
 		<div class="form-group input-box">
 			<h2>Té favorito:</h2>
-			<select class="form-control">
+			<select class="form-control" id="seleccion">
 				<option value="0">Selecciona tu té</option>
 				<option value="negro">Negro</option>
 				<option value="verde">Verde</option>
@@ -56,7 +56,7 @@
 			</label>
 		</div>
 		<div class="newsletter">
-			<button id="suscribirse">Suscríbete a nuestro newsletter</button>		
+			<button value="submit" id="suscribirse" onclick="validarDatos()"; return false>Suscríbete a nuestro newsletter</button>	
 		</div>
 	</section>
 	<!--Sección Nuestra Pasión -->
@@ -106,5 +106,6 @@
 	<footer>
 		<p>Té Encanto: Av. Italia 1317, Providencia.</p>
 	</footer>
+	<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
